@@ -6,9 +6,12 @@ def main():
         print("x is Odd")
 
 def is_even(n):
-    if n % 2==0:
-        return True
-    else:
-        return False
+    return n % 2 == 0
+
+    # return True if n % 2 == 0 else False # Pythonic expression
+    # if n % 2==0:
+    #     return True
+    # else:
+    #     return False
     
 main()

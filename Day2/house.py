@@ -1,4 +1,4 @@
-name = input (" Whats your name: ")
+name = input ("Whats your name: ")
 
 match name:
     case "Harry" | "Hermoine" | "Ron":

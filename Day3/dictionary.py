@@ -1,9 +1,20 @@
-students = {
-    "Hermoine" : "Gryffindor",
-    "Harry" : "Gryffindor",
-    "Ron" : "Gryffindor",
-    "Draco" : "Slytherin"
-}
+# students = {
+#     "Hermoine" : "Gryffindor",
+#     "Harry" : "Gryffindor",
+#     "Ron" : "Gryffindor",
+#     "Draco" : "Slytherin"
+# }
+
+# for student in students:
+#     print(student, students[student], sep= " : ")
+
+# List of Dictionary 
+students = [
+    {"name": "Hermoine", "house":"Gryffindor" , "patronus":"Otter"},
+    {"name": "Harry", "house":"Gryffindor" , "patronus":"Stag"},
+    {"name": "Ron", "house":"Gryffindor" , "patronus":"Jack Russell Terrier"},
+    {"name": "Hermoine", "house":"Gryffindor" , "patronus":None}
+]
 
 for student in students:
-    print(student, students[student], sep= " : ")
+    print(student["name"], student["house"], student["patronus"], sep = " , ")
